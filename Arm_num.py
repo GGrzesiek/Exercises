@@ -5,7 +5,6 @@ def is_armstrong_number(number):
     if(number > 9):
         for i in digitlist:
             sum += pow(i,dignum)
-            print(sum)
     else:
         return True
     if(sum == number):
