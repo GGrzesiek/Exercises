@@ -1,3 +1,3 @@
 import Arm_num as arm
-
-print(arm.is_armstrong_number(153))
+import sis_vocab as vocab
+print(vocab.adjective_to_verb("It got dark as the sun set.", 2))
