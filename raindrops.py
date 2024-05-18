@@ -1,22 +1,13 @@
 def convert(number):
+    output = ""
     if(number % 3 == 0):
-        if(number % 5 == 0):
-            if(number % 7 == 0):
-                return "PlingPlangPlong"
-            return "PlingPlang"
-        elif(number % 7 == 0):
-            return "PlingPlong"
-        else:
-            return "Pling"
+        output += "Pling"
     if(number % 5 == 0):
-        if(number % 7 == 0):
-            return "PlangPlong"
-        else:
-            return "Plang"
+        output += "Plang"
     if(number % 7 == 0):
-        return "Plong"
-    else:
-        number = str(number)
-        return number
+        output += "Plong"
+    if(output == ""):
+        output = str(number)
+    return output
         
             
