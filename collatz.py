@@ -1,4 +1,5 @@
 def steps(number):
+    """Return number of steps to reach 1 in the Collatz Conjecture."""
     steps_number = 0
     if number > 0:
         while(number!=1):

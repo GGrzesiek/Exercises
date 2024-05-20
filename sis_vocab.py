@@ -1,6 +1,3 @@
-"""Functions for creating, transforming, and adding prefixes to strings."""
-
-
 def add_prefix_un(word):
     """Take the given word and add the 'un' prefix.
 

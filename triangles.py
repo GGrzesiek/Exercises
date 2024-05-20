@@ -1,4 +1,6 @@
 def equilateral(sides):
+    """Return True if the triangle is equilateral, False otherwise
+    Equilateral triangles have all three sides the same length."""
     a = sides[0]
     b = sides[1]
     c = sides[2]
@@ -10,6 +12,8 @@ def equilateral(sides):
         return False
 
 def isosceles(sides):
+    """Return True if the triangle is isosceles, False otherwise
+    Isosceles triangles have at least two sides the same length."""
     if(is_triangle(sides)):
         for i in range(len(sides)):
             for j in range(i+1,len(sides)):
@@ -19,6 +23,8 @@ def isosceles(sides):
 
 
 def scalene(sides):
+    """Return True if the triangle is scalene, False otherwise
+    Scalene triangles have all three sides of different lengths."""
     if is_triangle(sides):
         a, b, c = sides
         return a != b and b != c and a != c
@@ -26,6 +32,7 @@ def scalene(sides):
 
     
 def is_triangle(sides):
+    """Return True if the sides form a triangle, False otherwise"""
     a, b, c = sorted(sides) 
 
     if a <= 0 or b <= 0 or c <= 0:
