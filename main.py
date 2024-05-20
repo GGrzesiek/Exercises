@@ -4,5 +4,6 @@ import collatz as col
 import leap_year as leap
 import triangles 
 import bob_response as bob
+import reverse_string as rev
 sides = [7,3,2]
-print(bob.response("hey?"))
+print(rev.reverse("hey?"))
