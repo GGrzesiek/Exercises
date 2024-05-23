@@ -5,5 +5,6 @@ import leap_year as leap
 import triangles 
 import bob_response as bob
 import reverse_string as rev
+import darts as dart
 sides = [7,3,2]
-print(rev.reverse("hey?"))
+print(dart.score(-2, 4))
