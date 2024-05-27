@@ -1,2 +1,2 @@
-import lists as ls
-print(ls.average_even_is_average_odd([1, 3, 5, 7, 9]))
+import collossal_coaster as cc
+print(cc.add_me_to_the_queue(['Tony', 'Bruce'], ['RobotGuy', 'WW'], 0, 'HawkEye'))
