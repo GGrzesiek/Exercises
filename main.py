@@ -1,2 +1,2 @@
-import making_the_grade as mtg
-print(mtg.perfect_score([["Charles", 90], ["Tony", 80], ["Alex", 100]]))
+import rna_transcription as rna
+print(rna.to_rna('GCTA'))
