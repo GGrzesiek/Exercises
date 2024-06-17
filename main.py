@@ -1,2 +1,2 @@
 import square_root as sqr
-print(sqr.square_root(144))
+print(sqr.square_root(65025))
